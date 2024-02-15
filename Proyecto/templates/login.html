@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesion</title>
+</head>
+<body>
+    <body>
+        <style>
+             body {
+            background-color: #0091ff; /* Fondo azul claro */
+        }
+          .nav-tabs {
+              background-color: #08499e; /* Fondo azul oscuro */
+          }
+          .nav-tabs .nav-link {
+              color: white; /* Texto blanco */
+          }
+          .nav-tabs .nav-link.active {
+              color: white; /* Texto blanco para el enlace activo */
+              background-color: #033669; /* Fondo un poco más oscuro para el enlace activo */
+          }
+          .form-label {
+            color: white; /* Texto blanco para las etiquetas */
+         }
+          .btn {
+         background-color: #033669; /* Fondo negro para el botón */
+         color: white; /* Texto blanco para el botón */
+         }
+          
+      </style>
+      
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/productos">Productos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/acercade">Acerca de</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio de sesion</a>
+        </li>
+      </ul>
+
+
+
+      <style>
+        .form-control {
+            max-width: 300px; /* Ajusta este valor según tus necesidades */
+        }
+        .form-container {
+            margin-top: 100px; /* Ajusta este valor para cambiar la distancia desde la parte superior de la página */
+        }
+    </style>
+    
+    <div class="d-flex justify-content-center form-container">
+        <form>
+            <div class="mb-3 d-flex flex-column align-items-center">
+                <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                <input type="email" class="form-control mx-auto" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3 d-flex flex-column align-items-center">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control mx-auto" id="exampleInputPassword1">
+            </div>
+            
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary">Iniciar</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>
